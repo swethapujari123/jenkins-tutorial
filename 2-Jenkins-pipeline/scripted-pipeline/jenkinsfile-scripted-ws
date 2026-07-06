@@ -3,7 +3,6 @@ node {
         checkout scm
     }
 
-node {
   stage('Hello') {
     sh 'echo "Hello World"'
   }
